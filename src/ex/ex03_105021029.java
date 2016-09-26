@@ -14,6 +14,7 @@ public class ex03_105021029 {
 		// TODO Auto-generated method stub
 
 		Scanner scn = new Scanner(System.in);
+		
 		System.out.println("請輸入您開始的停車時間(ex:1820 ->18 enter 20 enter):");
 		int a = scn.nextInt();
 		int b = scn.nextInt();

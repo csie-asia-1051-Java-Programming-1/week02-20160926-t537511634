@@ -16,8 +16,9 @@ public class ex02_105021029 {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("有一圓形，直徑為200，且中心座標為(0,0)");
 		System.out.println("輸入座標後系統可判斷是否在圓內請輸入座標:");	
-		System.out.println("請輸入座標:");	
+		System.out.println("請輸入x座標:");	
 		int a = scn.nextInt();
+		System.out.println("請輸入y座標:");	
 		int b = scn.nextInt();
 		int c = (int)Math.sqrt((int)Math.pow(a, 2) + (int)Math.pow(b, 2));
 		if(c <= 100){
